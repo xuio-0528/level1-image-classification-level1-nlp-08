@@ -1,6 +1,6 @@
 # level1-image-classification-level1-nlp-8
 
-김은기, 김덕래, 허치영, 김용희, 이승환
+김은기(팀장), 김덕래, 허치영, 김용희, 이승환
 
 <img width="1024" alt="image" src="https://user-images.githubusercontent.com/81913386/162423001-cc0546e7-efc0-46e2-8396-8db77454aeb8.png">
 
