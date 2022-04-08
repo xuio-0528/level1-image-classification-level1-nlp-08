@@ -32,9 +32,14 @@ l dropout : 0.5, val batch 100
   - Test dataset for public leaderboard: 20% / test dataset for private leaderboard: 20
 
 ## Main Difficulties
-Data imbalance
-겉보기 성별이 남성인 사진과 나이대가 60세 이상인 사진의 비율이 유의미하게 낮았음
-Label noise
-Train & validation dataset에 잘못 분류된 사진이 209/18900장(1.11%) 있었음
-Subtask cross dependency
-Subtask 3개 간의 상호 dependency로 인해 class 18개의 독립분포 가정이 위배됨
+- Data imbalance
+  - 겉보기 성별이 남성인 사진과 나이대가 60세 이상인 사진의 비율이 유의미하게 낮았음
+- Label noise
+  - Train & validation dataset에 잘못 분류된 사진이 209/18900장(1.11%) 있었음
+  - Subtask cross dependency
+  - **Subtask 3개 간의 상호 dependency로 인해 class 18개의 독립분포 가정이 위배됨**
+
+## 회고
+| 사실
+
+
