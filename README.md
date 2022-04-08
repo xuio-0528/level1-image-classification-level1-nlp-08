@@ -16,7 +16,7 @@
   - Provisional standing: 48th
 
 ## 사용모델
-- Age, Gender - Convnext
+- Age, Gender : Convnext
   - learning rate : 0.0005, loss : FCLS(gamma 2, labelsmoothing 0.1), Lr decay : 1 l optimizer : AdamW, Reszie : 224 x 224, Scheduler : Lambda(gender = StepLR) l dropout : 0.5, val batch 200
 - Mask : Coatnet
   - learning rate : 0.001, Epoch 15, loss : crossentropy, Lr decay : 3 l optimizer : Adam, Reszie : 224 x 224, Scheduler : Lambda,
